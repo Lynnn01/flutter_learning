@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/route_manager.dart';
 import 'package:profile_app/about.dart';
 import 'package:profile_app/main.dart';
+import 'package:profile_app/grid.dart';
 
 class MyDrawer extends StatefulWidget {
   const MyDrawer({super.key});
@@ -37,6 +38,12 @@ class _MyDrawerState extends State<MyDrawer> {
             title: const Text('About Me'),
             onTap: () {
               Get.to(const AboutPage());
+            },
+          ),
+          ListTile(
+            title: const Text('Grid Viwe'),
+            onTap: () {
+              Get.to(const GridPage());
             },
           ),
         ],
