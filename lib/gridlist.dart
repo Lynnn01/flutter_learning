@@ -16,7 +16,7 @@ class _GridlistPageState extends State<GridlistPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("About Me"),
+        title: const Text("Mix Layout"),
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
